@@ -1,8 +1,8 @@
 {
   "name": "next-client-router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "client router for next js",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Prains/next-client-router/issues"
   },
-  "homepage": "https://github.com/Prains/next-client-router#readme"
+  "homepage": "https://github.com/Prains/next-client-router#readme",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
