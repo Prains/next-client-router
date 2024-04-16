@@ -1,18 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5" /* Версия JavaScript, на которую нужно скомпилировать код */,
-    "module": "ESNext" /* Формат модулей (например, CommonJS, AMD, UMD, System, ES6, ESNext) */,
-    "strict": true /* Включает все строгие проверки типов */,
-    "esModuleInterop": true /* Включает совместимость с CommonJS */,
-    "skipLibCheck": true /* Пропускать проверку объявлений файлов .d.ts */,
-    "forceConsistentCasingInFileNames": true /* Гарантирует однородный регистр имен файлов */,
-    "outDir": "./dist" /* Папка для сохранения скомпилированных файлов */,
-    "declaration": true /* Генерация .d.ts файлов для вашего кода */,
-    "declarationDir": "./types" /* Папка для сохранения сгенерированных .d.ts файлов */,
-    "rootDir": "./" /* Относительный путь к вашим исходным файлам */,
-    "strictNullChecks": true /* Строгая проверка на null и undefined */,
-    "typeRoots": ["./node_modules/@types", "./types"]
+    "declaration": true,
+    "outDir": "dist",
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true
   },
-  "include": ["./" /* Пути к вашим исходным файлам TypeScript */],
-  "exclude": ["node_modules" /* Пути, которые не нужно включать в компиляцию */]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
