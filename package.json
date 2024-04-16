@@ -1,0 +1,22 @@
+{
+  "name": "next-client-router",
+  "version": "1.0.0",
+  "description": "client router for next js",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prains/next-client-router.git"
+  },
+  "keywords": [
+    "next.js"
+  ],
+  "author": "Prai'ns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prains/next-client-router/issues"
+  },
+  "homepage": "https://github.com/Prains/next-client-router#readme"
+}
